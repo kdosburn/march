@@ -1,2 +1,7 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, 'Home') %>
+<h1>H O M E</h1>
+<p>
+  This is the <%= yield(:title).downcase %> page for the
+  <a href="http://www.kendraosburn.com">Kendra Osburn's</a>
+  March app!
+</p>
